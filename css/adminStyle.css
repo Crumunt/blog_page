@@ -1,0 +1,47 @@
+:root {
+    --bg-nav: #30393E;
+    --bg-nav-highlight: #D9D9D9;
+    --bg-nav-button: #988F88;
+    --fc-nav: #FFFFFF;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa !important;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+}
+
+a.active {
+    border-radius: 100vw;
+    padding-inline-start: 2rem;
+    background-color: #988F88 !important;
+}
+
+#postHeader,
+#offcanvasNavbar,
+.card-wrapper {
+    background-color: #30393E !important;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.social-img {
+    height: 70px !important;
+    width: 70px !important;
+}
